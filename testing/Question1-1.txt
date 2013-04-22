@@ -1,0 +1,152 @@
+First test case in which we just simply need to build a bicycle.
+
+PartConfigurationManager:Initialization complete.
+PartConfigurationManager:Loaded 19 parts into memory.
+OrderRobot: Please enter your order [should be name part_name deadline]:
+Andrew bicycle 100000
+OrderRobot: Please enter your order [should be name part_name deadline]:
+ProductionRobot: Processing order: Order by Andrew, for one bicycle due in 100000
+FrameRobot: Building - frame
+GARobot: Building - gear_assembly
+SpokeRobot: Building - spoke
+GearRobot: Building - gears
+SeatRobot: Building - seat
+CablesRobot: Building - cables
+TireRobot: Building - tire
+DiskRobot: Building - disk
+RimRobot: Building - rim
+SpokeRobot: Completed - spoke
+CablesRobot: Completed - cables
+WheelRobot: Got a spoke!
+SpokeRobot: Building - spoke
+BrakesRobot: Got a cables!
+DiskRobot: Completed - disk
+SpokeRobot: Completed - spoke
+BrakesRobot: Got a disk!
+WheelRobot: Got a spoke!
+SpokeRobot: Building - spoke
+DiskRobot: Building - disk
+FrameRobot: Completed - frame
+BikeRobot: Got a frame!
+RimRobot: Completed - rim
+SpokeRobot: Completed - spoke
+WheelRobot: Got a spoke!
+SpokeRobot: Building - spoke
+DiskRobot: Completed - disk
+SpokeRobot: Completed - spoke
+BrakesRobot: Got a disk!
+BrakesRobot: Building - brakes
+WheelRobot: Got a spoke!
+SeatRobot: Completed - seat
+TireRobot: Completed - tire
+WheelRobot: Got a tire!
+WheelRobot: Got a rim!
+WheelRobot: Building - wheel
+GARobot: Completed - gear_assembly
+BrakesRobot: Completed - brakes
+GearRobot: Completed - gears
+WheelRobot: Completed - wheel
+BikeRobot: Got a wheel!
+SpokeRobot: Building - spoke
+TireRobot: Building - tire
+RimRobot: Building - rim
+SpokeRobot: Completed - spoke
+WheelRobot: Got a spoke!
+SpokeRobot: Building - spoke
+SpokeRobot: Completed - spoke
+WheelRobot: Got a spoke!
+SpokeRobot: Building - spoke
+RimRobot: Completed - rim
+SpokeRobot: Completed - spoke
+WheelRobot: Got a spoke!
+SpokeRobot: Building - spoke
+SpokeRobot: Completed - spoke
+WheelRobot: Got a spoke!
+TireRobot: Completed - tire
+WheelRobot: Got a tire!
+WheelRobot: Got a rim!
+WheelRobot: Building - wheel
+WheelRobot: Completed - wheel
+BikeRobot: Got a wheel!
+BikeRobot: Got a gear_assembly!
+BikeRobot: Got a gears!
+BikeRobot: Got a brakes!
+BikeRobot: Got a seat!
+BikeRobot: Building - bicycle
+BikeRobot: Completed - bicycle
+PackingRobot: COMPLETED:[Order by Andrew, for one bicycle due in 100000]
+
+
+Second run to prove consistency:
+Andrew bicycle 1000000
+OrderRobot: Please enter your order [should be name part_name deadline]:
+ProductionRobot: Processing order: Order by Andrew, for one bicycle due in 1000000
+FrameRobot: Building - frame
+SpokeRobot: Building - spoke
+GARobot: Building - gear_assembly
+GearRobot: Building - gears
+TireRobot: Building - tire
+SeatRobot: Building - seat
+DiskRobot: Building - disk
+CablesRobot: Building - cables
+RimRobot: Building - rim
+SpokeRobot: Completed - spoke
+WheelRobot: Got a spoke!
+SpokeRobot: Building - spoke
+CablesRobot: Completed - cables
+BrakesRobot: Got a cables!
+SpokeRobot: Completed - spoke
+DiskRobot: Completed - disk
+WheelRobot: Got a spoke!
+SpokeRobot: Building - spoke
+BrakesRobot: Got a disk!
+DiskRobot: Building - disk
+FrameRobot: Completed - frame
+BikeRobot: Got a frame!
+RimRobot: Completed - rim
+SpokeRobot: Completed - spoke
+WheelRobot: Got a spoke!
+SpokeRobot: Building - spoke
+DiskRobot: Completed - disk
+SpokeRobot: Completed - spoke
+BrakesRobot: Got a disk!
+BrakesRobot: Building - brakes
+WheelRobot: Got a spoke!
+TireRobot: Completed - tire
+SeatRobot: Completed - seat
+WheelRobot: Got a tire!
+WheelRobot: Got a rim!
+WheelRobot: Building - wheel
+GARobot: Completed - gear_assembly
+BrakesRobot: Completed - brakes
+GearRobot: Completed - gears
+WheelRobot: Completed - wheel
+BikeRobot: Got a wheel!
+SpokeRobot: Building - spoke
+TireRobot: Building - tire
+RimRobot: Building - rim
+SpokeRobot: Completed - spoke
+WheelRobot: Got a spoke!
+SpokeRobot: Building - spoke
+SpokeRobot: Completed - spoke
+WheelRobot: Got a spoke!
+SpokeRobot: Building - spoke
+RimRobot: Completed - rim
+SpokeRobot: Completed - spoke
+WheelRobot: Got a spoke!
+SpokeRobot: Building - spoke
+SpokeRobot: Completed - spoke
+WheelRobot: Got a spoke!
+TireRobot: Completed - tire
+WheelRobot: Got a tire!
+WheelRobot: Got a rim!
+WheelRobot: Building - wheel
+WheelRobot: Completed - wheel
+BikeRobot: Got a wheel!
+BikeRobot: Got a gear_assembly!
+BikeRobot: Got a gears!
+BikeRobot: Got a brakes!
+BikeRobot: Got a seat!
+BikeRobot: Building - bicycle
+BikeRobot: Completed - bicycle
+PackingRobot: COMPLETED:[Order by Andrew, for one bicycle due in 1000000]

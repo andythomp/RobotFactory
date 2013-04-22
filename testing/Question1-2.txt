@@ -1,0 +1,29 @@
+Second test run to show that we can build parts that are not just bicycles, but any part
+that we know of.
+
+Building a spoke
+
+Andrew spoke 100000
+OrderRobot: Please enter your order [should be name part_name deadline]:
+ProductionRobot: Processing order: Order by Andrew, for one spoke due in 100000
+SpokeRobot: Building - spoke
+SpokeRobot: Completed - spoke
+PackingRobot: COMPLETED:[Order by Andrew, for one spoke due in 100000]
+
+Building some brakes.
+
+Andrew brakes 100000
+OrderRobot: Please enter your order [should be name part_name deadline]:
+ProductionRobot: Processing order: Order by Andrew, for one brakes due in 100000
+CablesRobot: Building - cables
+DiskRobot: Building - disk
+CablesRobot: Completed - cables
+BrakesRobot: Got a cables!
+DiskRobot: Completed - disk
+BrakesRobot: Got a disk!
+DiskRobot: Building - disk
+DiskRobot: Completed - disk
+BrakesRobot: Got a disk!
+BrakesRobot: Building - brakes
+BrakesRobot: Completed - brakes
+PackingRobot: COMPLETED:[Order by Andrew, for one brakes due in 100000]
